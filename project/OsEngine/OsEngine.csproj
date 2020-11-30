@@ -278,6 +278,8 @@
     <Compile Include="Charts\CandleChart\Indicators\RviUi.xaml.cs">
       <DependentUpon>RviUi.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Charts\CandleChart\Indicators\Spread.cs" />
+    <Compile Include="Charts\CandleChart\Indicators\SpreadUi.xaml.cs" />
     <Compile Include="Charts\CandleChart\Indicators\StandardDeviation.cs" />
     <Compile Include="Charts\CandleChart\Indicators\StandardDeviationUi.xaml.cs">
       <DependentUpon>StandardDeviationUi.xaml</DependentUpon>
@@ -758,6 +760,7 @@
     <Compile Include="Robots\Engines\ClusterEngine.cs" />
     <Compile Include="Robots\High Frequency\Fisher.cs" />
     <Compile Include="Robots\High Frequency\HighFrequencyTrader.cs" />
+    <Compile Include="Robots\MarketMaker\Breezer.cs" />
     <Compile Include="Robots\MarketMaker\PairTraderSimple.cs" />
     <Compile Include="Robots\MarketMaker\PairTraderSimpleUi.xaml.cs">
       <DependentUpon>PairTraderSimpleUi.xaml</DependentUpon>

@@ -90,6 +90,10 @@ namespace OsEngine.Charts.CandleChart
                             continue;
                         }
 
+                        if (indicator[0] == "Spread")
+                        {
+                            CreateIndicator(new Spread(indicator[1], Convert.ToBoolean(indicator[3])), indicator[2]);
+                        }
                         if (indicator[0] == "TickVolume")
                         {
                             CreateIndicator(new TickVolume(indicator[1], Convert.ToBoolean(indicator[3])), indicator[2]);
